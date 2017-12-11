@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CoinPro</title>
+<meta name="description" content="">
+<meta name="author" content="">
+
+<!-- Favicons
+    ================================================== -->
+<link rel="shortcut icon" href="{% static 'coinpro/img/favicon.ico' %}" type="image/x-icon">
+<link rel="apple-touch-icon" href="{% static 'coinpro/img/apple-touch-icon.png' %}">
+<link rel="apple-touch-icon" sizes="72x72" href="{% static 'coinpro/img/apple-touch-icon-72x72.png' %}">
+<link rel="apple-touch-icon" sizes="114x114" href="{% static 'coinpro/img/apple-touch-icon-114x114.png' %}">
+
+<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css"  href="{% static 'coinpro/css/bootstrap.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'coinpro/fonts/font-awesome/css/font-awesome.css' %}">
+
+<!-- Stylesheet
+    ================================================== -->
+<link rel="stylesheet" type="text/css"  href="{% static 'coinpro/css/style.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'coinpro/css/prettyPhoto.css' %}">
+<link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="{% static 'coinpro/js/modernizr.custom.js' %}"></script>
+
+</head>
+<body>
+<!-- Navigation
+    ==========================================-->
+<nav id="menu" class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      <a class="navbar-brand" href="index.html"><i class="fa fa-sun-o"></i> Coinpro<strong></strong></a> </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#home" class="page-scroll">Home</a></li>
+        <li><a href="#services-section" class="page-scroll">Services</a></li>
+        <li><a href="#about-section" class="page-scroll">About</a></li>
+        <li><a href="#contact-section" class="page-scroll">Contact</a></li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container-fluid -->
+</nav>
+
+<!-- Header -->
+<header class="text-center" name="home">
+  <div class="intro-text">
+    <h1>Welcome to <strong>Coinpro</strong></h1>
+    <p>Digital asset advising and management</p>
+    <a href="#services-section" class="btn btn-default btn-lg page-scroll">LEARN MORE</a> </div>
+</header>
+
+<!-- Services Section -->
+<div id="services-section" class="text-center">
+  <div class="container">
+    <div class="section-title center">
+      <h2>Our Services</h2>
+      <hr>
+      <div class="clearfix"></div>
+      <p>Here at coinpro, we specialize in digital currency trading.</p>
+    </div>
+    <div class="space"></div>
+    <div class="row">
+      <div class="col-md-3 col-sm-6 service"> <i class="fa fa-line-chart"></i>
+        <h4>Digital Asset Management</h4>
+        <p>Optimize asset appreciation with trading intelligence.</p>
+      </div>
+      <div class="col-md-3 col-sm-6 service"> <i class="fa fa-desktop"></i>
+        <h4>Technical Advising</h4>
+        <p>Blockchain development and project planning.</p>
+      </div>
+      <div class="col-md-3 col-sm-6 service"> <i class="fa fa-calendar-o"></i>
+        <h4>Investment Advising</h4>
+        <p>Introduce machine learning tools to digital investment strategy.</p>
+      </div>
+      <div class="col-md-3 col-sm-6 service"> <i class="fa fa-level-up"></i>
+        <h4>Digital Currency Consulting</h4>
+        <p>Arrange meetings with our professionals and get the cryptocurrency information you're looking for.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- About Section -->
+<div id="works-section">
+  <div class="container">
+    <div class="section-title text-center center">
+      <h2>About Us</h2>
+      <hr>
+      <div class="clearfix"></div>
+      <p>We follow digital currency trends and make sure that you get the best return on investment possible.</p>
+    </div>
+      <div class="col-md-6"> <img src="{% static 'coinpro/img/about.jpg' %}" class="img-responsive"> </div>
+      <div class="col-md-6">
+        <div class="about-text">
+          <h4>What We Do</h4>
+          <p>We have access to telegram channels that allow us to keep up to date and better understand the the cryptocurrency market. We consume data with automated tools in order to automate trading needs real-time and get the most out of digital assets.</p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="about-text">
+          <h4>Why Choose Us</h4>
+          <p>Coinpro is building digital trading solutions for the future, we rely heavily on machine learning software to make investment decisions and have years of experience with digital asset trading.</p>
+        </div>
+      </div>
+
+  </div>
+</div>
+<!-- Achievements Section -->
+<div id="achievements" class="section dark-bg">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-sm-3">
+        <div class="achievement-box"> <span class="count">5</span>
+          <h4>Happy clients</h4>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-3">
+        <div class="achievement-box"> <span class="count">56</span>
+          <h4>Coins Traded</h4>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-3">
+        <div class="achievement-box"> <span class="count">250%</span>
+          <h4>Average ROI</h4>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-3">
+        <div class="achievement-box"> <span class="count">28</span>
+          <h4>Blockchain Software Tools</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Contact Section -->
+<div id="contact-section" class="text-center">
+  <div class="container">
+    <div class="section-title center">
+      <h2>Contact Us</h2>
+      <hr>
+      <p>Interested in digital currency trading or curious what it could do for you?</p>
+      <p>Contact Us</p>
+    </div>
+    <div class="col-md-8 col-md-offset-2">
+      <div class="col-md-8 col-md-offset-2"> <i class="fa fa-envelope-o"></i>
+        <p>info@coinpro.com</p>
+      </div>
+      <div class="col-md-8 col-md-offset-2"> <i class="fa fa-phone"></i>
+        <p> +1 303 731 9109</p>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+    <!-- <div class="col-md-8 col-md-offset-2">
+      <h3>Leave us a message</h3>
+      <form name="sentMessage" id="contactForm" novalidate>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="text" id="name" class="form-control" placeholder="Name" required="required">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="email" id="email" class="form-control" placeholder="Email" required="required">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required></textarea>
+          <p class="help-block text-danger"></p>
+        </div>
+        <div id="success"></div>
+        <button type="submit" class="btn btn-default">Send Message</button>
+      </form>
+    </div> -->
+  </div>
+</div>
+</div>
+<div id="social-section">
+  <div class="container">
+    <div class="social">
+      <!-- <ul>
+        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+        <li><a href="#"><i class="fa fa-github"></i></a></li>
+        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+      </ul> -->
+      <div class="achievement-box">
+        <h4>***DISCLAIMER*** There is risk associated with investing in digital currency. Coinpro is not liable for digital assets.</h4>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="footer">
+  <div class="container">
+    <div class="fnav">
+      <p>Copyright &copy; Coinpro. Designed by <a href="http://coinpro.com" rel="nofollow">Coinpro</a></p>
+    </div>
+  </div>
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="{% static 'js/jquery.1.11.1.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/bootstrap.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/SmoothScroll.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/jquery.counterup.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/waypoints.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/jquery.prettyPhoto.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/jquery.isotope.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/jqBootstrapValidation.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/contact_me.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/main.js' %}"></script>
+</body>
+</html>
